@@ -1,0 +1,90 @@
+#c1{
+   background-color:#00296b;
+}
+#c2{
+    background-color: #003f88;
+}
+#c3{
+    background-color: #00509d;
+}
+#c4{
+    background-color: #fdc500;
+}
+#c5{
+    background-color: #ffd500;
+}
+/* font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'PT Serif', serif; */
+body{ font-family: 'pt serif';}
+header{
+  border: #00296b solid;
+  position: sticky;
+  top: 0%;
+  z-index: 0;
+  background-image: linear-gradient(to bottom right, #00296b, #00509d);
+  text-align: center;
+  width: 100%;
+}
+.navborder{
+  position:absolute;
+  right: 20px;
+  bottom: 3px;
+}
+button{
+  background-color: #fdc500;
+  border-radius: 15px;
+  height: 60px;
+  width: 60px;
+}
+div {
+  width: 45px;
+  height: 6px;
+  background-color: #00296b;
+  margin: 6px 0;
+  border-radius: 25px;
+}
+button:hover{background-color: #fbd200;}
+div:hover{background-color: #3480fa;}
+#myDropdown a:link{text-decoration: none;}
+#myDropdown a:hover{background-color: rgba(10, 124, 231, 0.8); font-size: x-large; text-decoration: none;}
+#myDropdown a:active{color: black;}
+.dropdown-content {
+  display: none;
+  list-style: none;
+  text-align: left;
+  position: absolute;
+  min-width: 100px;
+  right: 20px;
+  overflow: auto;
+  z-index: 1;
+  box-shadow: 0px 8px 8px 0px #00296b;
+  background-color: rgb(250, 211, 18, 0.70);
+}
+.show {display: block;}
+.logo{position:absolute; left: 40px; top: 50px; margin: 0px;}
+h1{ color: #fdc500; font-size: 60px; font-stretch:extra-expanded;text-shadow: #fbd200 100px;}
+.hero{
+  position: relative;
+  border:#00509d solid;
+  height: 1100px;
+  width: 100%;
+  z-index: -2;
+  background:url("/images/skyscrap.jpg.jpg") repeat top #00296b;
+ }
+ .theme-text{position:absolute; display: inline-block; margin:0%; text-align: center; bottom: 500px;font-family: serif; font-size: 100px;color: #fdc500;text-shadow: 4px 4px #3480fa;}
+ .theme-text2{position:absolute; display: inline-block; margin:0%; right: 50%; bottom: 400px;font-family: serif; font-size: 100px;color: #fdc500;text-shadow: 4px 4px #3480fa;}
+ .theme-text3{position:absolute; display: inline-block; margin:0%; left: 35%; bottom: 300px;font-family: serif; font-size: 100px;background-repeat: repeat-y;color: #fdc500;text-shadow: 4px 4px #3480fa;}
+
+ .alfa{ height: 1100px; width: 300px;}
+ .alfa2{position: absolute; height: 1100px; width: 300px; right: 3px;}
+
+footer{
+  border: #00296b solid;
+  position: relative;
+  bottom: 0%;
+  background-image: linear-gradient(to top, #00296b, #00509d);
+  width: 100%;
+  text-align: center;
+}
+#wit a:hover{ background-color: black; font-size: xx-large;color:#fbd200;}
+#wit a :active{ color: #00296b;}
