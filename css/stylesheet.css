@@ -15,7 +15,7 @@
 }
 /* font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'PT Serif', serif; */
-body{ font-family: 'pt serif';}
+body{ font-family: 'pt serif';background-color: #3480fa;}
 header{
   border: #00296b solid;
   position: sticky;
@@ -61,8 +61,7 @@ div:hover{background-color: #3480fa;}
   background-color: rgb(250, 211, 18, 0.70);
 }
 .show {display: block;}
-.logo{position:absolute; left: 40px; top: 50px; margin: 0px;}
-h1{ color: #fdc500; font-size: 60px; font-stretch:extra-expanded;text-shadow: #fbd200 100px;}
+
 .hero{
   position: relative;
   border:#00509d solid;
@@ -70,14 +69,26 @@ h1{ color: #fdc500; font-size: 60px; font-stretch:extra-expanded;text-shadow: #f
   width: 100%;
   z-index: -2;
   background:url("/images/skyscrap.jpg.jpg") repeat top #00296b;
- }
+  padding: 0%;
+}
+ .logo{position:absolute; left: 40px; top: 50px; margin: 0px;}
+  h1{ color: #fdc500; font-size: 60px; font-stretch:extra-expanded;text-shadow: #fbd200 100px;}
  .theme-text{position:absolute; display: inline-block; margin:0%; text-align: center; bottom: 500px;font-family: serif; font-size: 100px;color: #fdc500;text-shadow: 4px 4px #3480fa;}
  .theme-text2{position:absolute; display: inline-block; margin:0%; right: 50%; bottom: 400px;font-family: serif; font-size: 100px;color: #fdc500;text-shadow: 4px 4px #3480fa;}
  .theme-text3{position:absolute; display: inline-block; margin:0%; left: 35%; bottom: 300px;font-family: serif; font-size: 100px;background-repeat: repeat-y;color: #fdc500;text-shadow: 4px 4px #3480fa;}
 
  .alfa{ height: 1100px; width: 300px;}
  .alfa2{position: absolute; height: 1100px; width: 300px; right: 3px;}
+ .list1{ list-style-type: none;font-size:x-large;}
+ .list2{ list-style-type: disc;}
+ aside{background-color: #5891ee; font-family: serif; width: 300px;height: 400px;position: relative;float: left; z-index: -1; color: #fbd200;}
+ aside h2{margin: 40px}
 
+ h2{display: inline; font-size: xx-large  ;font-family:'Open Sans Condensed' ;}
+ section{ text-align: center; font-size: large;}
+ iframe{ position: sticky; z-index: -1;}
+ 
+ 
 footer{
   border: #00296b solid;
   position: relative;
@@ -88,3 +99,4 @@ footer{
 }
 #wit a:hover{ background-color: black; font-size: xx-large;color:#fbd200;}
 #wit a :active{ color: #00296b;}
+
